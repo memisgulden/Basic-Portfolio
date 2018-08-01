@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777;
+    background: #777;
+    font-size: 18px;
+    line-height: 32px;
+}
+/* Nav Bar */
+.header {
+    background: #f3f3f3;
+    top: 0; 
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+}
+
+/* UnOrdered List Links */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    margin-right: 10%;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#name {
+    background: #4CAF50;
+    float: left;
+    top: 0;
+    text-align: center;
+    width: 200px;
+    padding: 14px;
+    margin-left: 10%;
+    
+}
+
+/* End of Nav Bar */
+
+.AboutMe {
+    background: orange;
+    width: 80%;
+    height: 475px;
+    color: #333;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+/* Title About Me */
+.h2 {
+    color:#333;
+    width: 20%;
+    height: 20%;
+}
+
+/* Paragraph & Photo */
+#p {
+    text-align: justify;
+    background: #ebebeb;
+    color: #333;
+    text-overflow: clip;
+    overflow: hidden;
+    height: 390px;
+} 
+
+#img {
+    float: none;
+    padding: 20px;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+
+
+/* Footer */
+footer {
+    background: #f3f3f3;
+    position: fixed;
+    bottom: 0; 
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    text-align: center;
+}
+ 
+
