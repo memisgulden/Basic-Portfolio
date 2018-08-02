@@ -1,35 +1,40 @@
 * {
     box-sizing: border-box;
+    background-image:url(../images/gplaypattern.png);
+
 }
 
-body {
+.body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color:#777;
-    background: #777;
-    font-size: 18px;
-    line-height: 32px;
+    background-image:url(../images/gplaypattern.png);
+    background: green;
+    font-size: 20px;
 }
+
 /* Nav Bar */
 .header {
-    background: #f3f3f3;
+    background: #ffffff;
     top: 0; 
     width: 100%;
-    height: 60px;
+    height: 50px;
     overflow: hidden;
+    border-bottom: 1px solid #cccccc;
+    color: #777777;
 }
 
-/* UnOrdered List Links */
+/* Un-Ordered List Links */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #f3f3f3;
+    background-color: #ffffff;
     margin-right: 10%;
 }
 
 li {
     float: right;
+
 }
 
 li a {
@@ -38,67 +43,83 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    background-color: #ffffff;
+
+   
 }
 
 #name {
-    background: #4CAF50;
+    background: #4aaaa5;
     float: left;
     top: 0;
     text-align: center;
     width: 200px;
     padding: 14px;
     margin-left: 10%;
+    color: #ffffff;
+    height: 50px;
+    font-size: 20px;
     
 }
 
 /* End of Nav Bar */
 
+/* About Me Section */
 .AboutMe {
-    background: orange;
+    background: #ffffff;
     width: 80%;
     height: 475px;
-    color: #333;
     padding: 20px;
     margin-top: 30px;
     margin-left: 10%;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+    border: 1px solid #dddddd;
 }
 
 /* Title About Me */
-.h2 {
-    color:#333;
-    width: 20%;
-    height: 20%;
+#title {
+    color: #4aaaa5;
+    font-weight: bold;
+    background: #ffffff;
+    padding: 10px;
+    font-size: 30px;
+    border-bottom: 2px solid #dddddd;
 }
 
 /* Paragraph & Photo */
 #p {
     text-align: justify;
-    background: #ebebeb;
+    background: #ffffff;
     color: #333;
     text-overflow: clip;
     overflow: hidden;
     height: 390px;
+    font-size: 20px;
+    line-height: 20px;
+    padding-top: 10px;
 } 
 
 #img {
-    float: none;
-    padding: 20px;
-    background-color: green;
-    width: 200px;
+    float: left;
+    width: 235px;
     height: 200px;
+    padding-right: 10px;
 }
 
 
 /* Footer */
 footer {
-    background: #f3f3f3;
+    background: #666666;
     position: fixed;
     bottom: 0; 
     width: 100%;
     height: 40px;
     overflow: hidden;
     text-align: center;
+    color:#ffffff;
+    font-size: 15px;
+    border-top: 7px solid #4aaaa5;
+    padding-top: 10px;
 }
  
 
